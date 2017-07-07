@@ -1,1 +1,5 @@
-<H2>BIENVENUE SUR NOTRE PREMIERE PAGE</H2>
+<H2>Bienvenue à Boston Texas</H2>
+
+<%= link_to 'Inscription', new_user_registration_path %> 
+<%= link_to 'Identification', new_user_session_path %>
+<%= link_to 'Déconnexion', destroy_user_session_path, method: :delete %>
